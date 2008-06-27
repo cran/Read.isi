@@ -1,4 +1,4 @@
-`read.isi` <-
+read.isi <-
 function(input.file, dat.file, add.missings=TRUE, add.value.labels=TRUE, ...) 
 	{
 	# Preparation of some variables

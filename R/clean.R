@@ -1,4 +1,4 @@
-`clean` <-
+clean <-
 function (x) 
 {
 	spaces <- nchar(x, type="c")
@@ -20,6 +20,11 @@ function (x)
 	}
 	
 	string <- substr(x,start+1,end)
+	
+	for (i in 1:nchar(string, type="c"))
+	{
+		if(substr(string,i,i) == "'") {substr(string,i,i) <- "."}
+	}
 	return(string)
 }
 

@@ -1,4 +1,4 @@
-`convert.isi` <-
+convert.isi <-
 function(input.file, output.file, dat.file) {
 
 conversion.result <- read.codebook.isi(input.file)
@@ -51,7 +51,7 @@ inter[4] <- " "
 
 file.header <- matrix(ncol=1,nrow=21)
 file.header[1] <- "* * ** *** ***** ********"
-file.header[2] <- "* This syntax file has been created using read.isi, version 0.4"
+file.header[2] <- "* This syntax file has been created using read.isi, version 0.5"
 file.header[3] <- "* Read.isi is an R-Project extension package developed by Rense Nieuwenhuis."
 file.header[4] <- "* Read.isi is free software and comes with absolutely no warranty. This also applies to this SPSS syntax file."
 file.header[5] <- "* For more information regarding the license under which read.isi is distributed," 
@@ -184,9 +184,6 @@ save[2,1] <- "/COMPRESSED."
 save[3,1] <- ""
 
 	write.table(save, file=output.file, quote=FALSE, row.names=FALSE, col.names=FALSE, sep="", append=TRUE)
-
-
-cat("\n", "Finished.")
 
 
 }

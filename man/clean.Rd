@@ -25,10 +25,16 @@ Returns a character string
 
 a <- "  messy string   "
 clean(a)
+#[1] "messy string"
 
 b <- c("  First", "Second   ", " and last ...")
 sapply(b, FUN=clean)
+#         First      Second      and last ... 
+#       "First"       "Second" "and last ..." 
 
+d <- c("vfdgf'dre'3fv")
+clean(d)
+#[1] "vfdgf.dre.3fv"
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

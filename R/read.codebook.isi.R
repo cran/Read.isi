@@ -1,4 +1,4 @@
-`read.codebook.isi` <-
+read.codebook.isi <-
 function(input.file) {
 
 ## Initialisation
