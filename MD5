@@ -1,0 +1,12 @@
+d86ce794d2ebdcd3bb0f6a38c8dae927 *DESCRIPTION
+9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
+761278d2c58a2a849cbaa62f72d1dd66 *R/clean.R
+e1cbfc2701ee6d7c991d9a64d9e874e5 *R/convert.isi.R
+707f37f22ab492e846de6964c870d930 *R/read.codebook.isi.R
+d1875ea45a6db3a2e48ef5360099af3b *R/read.isi.R
+af3991219c91d4dcafad185e0f8bdbbc *inst/CITATION
+12cfce0b2079673fef49e8f42c91d8bb *man/Read.isi-package.Rd
+a3e2084b56fadc904ea8e33de59b43aa *man/clean.Rd
+496b2d8bee56a6673977a7bd87dfd23a *man/convert.isi.Rd
+683dfd463c47fee3c3215d4f8fc14edc *man/read.codebook.isi.Rd
+5ff66765060a91253b9115c5af1fd899 *man/read.isi.Rd

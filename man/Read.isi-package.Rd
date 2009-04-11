@@ -12,9 +12,9 @@ Old statistical data was often stored in formats that are difficult to gain acce
 \tabular{ll}{
 Package: \tab Read.isi\cr
 Type: \tab Package\cr
-Version: \tab 0.5\cr
+Version: \tab 0.5.1\cr
 Date: \tab 2008-08-05\cr
-License: \tab GPL (>= 2.0). Additionally, publications to which the Read.isi-package has contributed should refer to this package. Use license('Read.isi') for information on how to refer to this package.\cr
+License: \tab GPL-3\cr
 }
 
 
